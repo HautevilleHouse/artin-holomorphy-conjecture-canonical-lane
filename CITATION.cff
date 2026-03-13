@@ -1,0 +1,21 @@
+title: "The Artin Holomorphy Conjecture via Artin L-Function Regularity Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-05
+repository-code: "https://github.com/HautevilleHouse/artin-holomorphy-conjecture-canonical-lane"
+url: "https://github.com/HautevilleHouse/artin-holomorphy-conjecture-canonical-lane"
+license: None
+keywords:
+  - analytic-number-theory
+  - artin-holomorphy-conjecture
+  - artin-l-functions
+  - automorphic-forms
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "The Artin Holomorphy Conjecture via Artin L-Function Regularity Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-05
