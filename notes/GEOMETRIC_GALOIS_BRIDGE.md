@@ -1,13 +1,43 @@
 # Geometric Galois Bridge
 
-This note records the remainder rule and the mainstream bridge vocabulary for the Artin Holomorphy Conjecture problem via Artin L-Function Regularity Persistence workspace.
+Mature wording: `Galois bridge / remainder discipline`.
 
-Write the ambient class as `X = X_mc ⊎ R`, where `X_mc` is the manifold-constrained admissible sector, `P_mc X = X_mc`, and `Q_rem = I - P_mc` records the explicit remainder.
+In-paper anchor: `paper/ARTIN_HOLOMORPHY_CONJECTURE_PREPRINT.md` (bridge and margin interface).
 
-The public strengthening rule is:
+## Goal
+Make the geometric/arithmetic bridge explicit without pretending that the projected admissible lane is the unrestricted problem-side universe.
 
-- closure on `X_mc` does not erase `R`,
-- any claim extending beyond the admissible lane must retain the remainder ledger,
-- the remainder cannot be silently collapsed into the closed lane.
+## Objects
 
-Mainstream bridge vocabulary for this repo includes étale/fundamental-group data, local-global compatibility, and Galois-side endpoint identification where appropriate. The note exists to make the bridge explicit rather than folkloric.
+- visible sector: the declared admissible sector controlled by the Canonical Lane package.
+- problem-side class: the larger geometric, etale, arithmetic, or Galois-side object family named by the preprint.
+- remainder: the complement not closed by the visible sector alone.
+- transfer lock: `regularity_transfer`.
+- coherence remainder: `eps_coh`.
+
+## Closure Criterion
+
+The bridge is valid only when the admissible visible sector is projected, the remainder is named, and the endpoint-transfer lock `regularity_transfer` connects the canonical endpoint to the ordinary problem-side formulation.
+
+## Lemma Chain and Proof Payload
+
+### Lemma GG.1 (visible-sector projection)
+The Canonical Lane claim is made on the declared admissible visible sector, not on an unstated unrestricted object.
+
+Payload: check the preprint's admissible-class and explicit-remainder language.
+
+### Lemma GG.2 (remainder discipline)
+Any stronger external consequence must route through the named remainder rather than bypassing it.
+
+Payload: verify that `eps_coh` and the defect/coherence ledgers remain visible in the runtime artifacts.
+
+### Theorem GG.3 (geometric/arithmetic bridge)
+If projection, remainder discipline, and endpoint transfer are all explicit, then the geometric/Galois bridge is a lawful translation layer rather than ornamental terminology.
+
+## Current Instantiation
+
+- transfer artifact key: `regularity_transfer`
+- coherence artifact key: `eps_coh`
+- margin: `M_AH`
+- mature equivalent: `Galois bridge / remainder discipline`
+- audit surface: `notes/IDENTIFICATION_BRIDGE.md` and `repro/certificate_runtime.json`
